@@ -334,7 +334,7 @@ JSON;
 			$this->locks[] = $lock;
 			return true;
 		}
-		$this->log("Failed to lock run for " . $config['filename'] . " / " . $lock);
+		$this->log("Failed to lock run for " . $path . " / " . $lock);
 		return false;
 	}
 
